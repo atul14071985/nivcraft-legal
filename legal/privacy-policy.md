@@ -5,7 +5,7 @@
 
 NivCraft ("NivCraft", "we", "us", or "our") provides a paper-trading, market-learning, watchlist, signal-scanning, analytics, and community application. This Privacy Policy explains how the NivCraft mobile application and its related services collect, use, disclose, retain, and protect information.
 
-NivCraft is operated by the developer identified for NivCraft in its Google Play listing. For privacy questions or requests, contact **nivcraft.support@gmail.com**.
+NivCraft is operated by the developer identified for NivCraft in its Google Play listing. For privacy questions or requests, contact **support.nivcraft@gmail.com**.
 
 ## 1. Scope
 
@@ -22,7 +22,6 @@ Depending on the features you use and the features currently enabled, we may pro
 - **Signals and notifications:** signal preferences, configured scans, signal results, and notification settings. If you enable continuous signal scanning, the app may perform scheduled background work on your device.
 - **Community information:** profile information made visible in the community, follows, votes, trade ideas, posts, comments, rankings, and related notifications. Content marked public is visible to other users.
 - **Support information:** feedback, feature requests, issue reports, messages, screenshots or diagnostic details you choose to send, app version, platform, and screen context.
-- **Diagnostics:** failed or timed-out expected app flows, error details, screen, app version, device model, operating-system version, and timestamps. NivCraft is configured to retain failed-flow diagnostics for a limited period rather than recording general in-app activity.
 - **Subscription and transaction information:** plan, entitlement, price, payment status, provider references, expiry and renewal state. When checkout is enabled, payment details are processed by the displayed payment provider (currently Razorpay); NivCraft does not receive your full card or bank credentials.
 - **Advertising information:** when advertising is enabled, Google Mobile Ads may process advertising identifiers, device information, approximate location inferred from network information, ad interactions, and diagnostics in accordance with Google's policies and your device choices.
 - **Technical information:** IP address, request timestamps, app platform/version, device metadata, and server logs needed for security, delivery, troubleshooting, and abuse prevention.
@@ -62,7 +61,7 @@ Third-party services may process data in India or other countries where they ope
 
 Where applicable law requires a legal basis, we process information to perform our agreement with you, with your consent, for our legitimate interests in operating and securing NivCraft, and to comply with law.
 
-You can choose whether to connect a broker, publish community content, enable notifications or continuous scanning, submit support details, or purchase a plan. Device permissions can be changed in Android settings. Some core account and service data is necessary to provide NivCraft.
+You can choose whether to connect a broker, publish community content, enable notifications or background scanning, submit support details, or purchase a plan. Device permissions can be changed in Android settings. Some core account and service data is necessary to provide NivCraft.
 
 ## 6. Data security
 
@@ -73,7 +72,6 @@ We use reasonable administrative, technical, and organizational safeguards, incl
 We retain information only while needed for the purposes described above, including service delivery, security, dispute resolution, and legal or accounting duties.
 
 - Active-account data is generally retained while your account remains active.
-- Failed-flow diagnostics are configured for deletion after approximately 30 days unless a shorter or longer period is necessary to investigate a specific security or reliability incident.
 - Public community content remains until you delete it or your account is deleted, subject to cached copies and lawful retention.
 - When you delete your NivCraft account, we delete or de-identify profile, watchlist, paper-trading, community, support, device-session, and similar user-specific data. Legal acceptance is cleared, so a returning account must accept the then-current Terms again.
 - We may retain minimum de-identified or restricted records of payments, entitlements, premium expiry, referrals, deletion, fraud prevention, and disputes where necessary for tax, accounting, legal compliance, subscription restoration, or abuse prevention. These retained records are not used to recreate deleted community or practice-trading data.
@@ -83,7 +81,7 @@ You can delete your account in NivCraft through **Menu > Delete Account**. If yo
 
 ## 8. Your rights
 
-Subject to applicable law, you may request access, correction, deletion, restriction, objection, portability, withdrawal of consent, or information about our processing. Contact **nivcraft.support@gmail.com**. We may verify your identity and may retain information where law permits or requires it.
+Subject to applicable law, you may request access, correction, deletion, restriction, objection, portability, withdrawal of consent, or information about our processing. Contact **support.nivcraft@gmail.com**. We may verify your identity and may retain information where law permits or requires it.
 
 You may also complain to the data-protection authority available in your jurisdiction.
 
@@ -102,6 +100,6 @@ We may update this Policy as NivCraft, our providers, or legal requirements chan
 ## 12. Contact
 
 **NivCraft Privacy Contact**  
-Email: [nivcraft.support@gmail.com](mailto:nivcraft.support@gmail.com)  
+Email: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
 Country of operation: India
 

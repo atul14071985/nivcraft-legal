@@ -3,7 +3,7 @@
 **Terms version:** 2026-07-14  
 **Effective date:** 14 July 2026
 
-These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **nivcraft.support@gmail.com**.
+These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **support.nivcraft@gmail.com**.
 
 ## 1. Acceptance
 
@@ -39,7 +39,7 @@ Connecting a broker authorizes NivCraft to use the resulting session for the mar
 
 ## 7. Signals, background scanning, and notifications
 
-Signals are rule-based technical observations, not advice. Enabling Signal Notifications or Continuous Scan authorizes the app to perform supported background work and show notifications until you disable the linked setting or Android prevents the work. Delivery, timing, and completeness are not guaranteed. Background restrictions, connectivity, market hours, provider limits, or device settings can interrupt scans.
+Signals are rule-based technical observations, not advice. Enabling Signal Notifications authorizes the app to perform supported background work and show notifications until you disable Signal Notifications, the configured daily signal allowance is reached, or Android prevents the work. Delivery, timing, and completeness are not guaranteed. Background restrictions, connectivity, market hours, provider limits, subscription limits, or device settings can interrupt scans. Signal processing is performed on the device; broker market data is requested from the selected broker/provider by the app.
 
 ## 8. Community content
 
@@ -95,7 +95,7 @@ To the extent permitted by law, you will reimburse reasonable losses and costs a
 
 ## 17. Governing law and disputes
 
-These Terms are governed by the laws of India, without regard to conflict-of-law rules. Courts having jurisdiction at NivCraft's operator's principal place of business in India will have jurisdiction, subject to mandatory consumer rights and any forum that applicable law requires. Before filing a claim, please contact **nivcraft.support@gmail.com** and allow 30 days for a good-faith attempt to resolve it.
+These Terms are governed by the laws of India, without regard to conflict-of-law rules. Courts having jurisdiction at NivCraft's operator's principal place of business in India will have jurisdiction, subject to mandatory consumer rights and any forum that applicable law requires. Before filing a claim, please contact **support.nivcraft@gmail.com** and allow 30 days for a good-faith attempt to resolve it.
 
 ## 18. General
 
@@ -108,6 +108,6 @@ We may update these Terms for product, provider, security, legal, or operational
 ## 20. Contact
 
 **NivCraft**  
-Email: [nivcraft.support@gmail.com](mailto:nivcraft.support@gmail.com)  
+Email: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
 Country of operation: India
 
