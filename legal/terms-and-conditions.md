@@ -1,7 +1,7 @@
 # Terms & Conditions for NivCraft
 
-**Terms version:** 2026-07-14  
-**Effective date:** 14 July 2026
+**Terms version:** 2026-07-26
+**Effective date:** 26 July 2026
 
 These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **support.nivcraft@gmail.com**.
 
@@ -21,9 +21,15 @@ NivCraft is an educational and simulated paper-trading service. It does not rout
 
 Quotes, signals, scans, option-chain information, calculations, rankings, behavior insights, community content, and other outputs are provided for learning and informational purposes. They are not investment advice, a research report, an offer, or a recommendation to buy, sell, or hold anything. Simulated results do not represent actual execution and do not guarantee future results. Real trading can result in substantial or total loss. Obtain qualified independent advice and perform your own research before making a real-money decision.
 
-## 4. Market data and simulated results
+## 4. Market data, regions, wallets, and simulated results
 
-Market data may come from connected brokers or other providers and may be delayed, incomplete, unavailable, adjusted, or incorrect. Simulated fills, charges, margin, liquidity, slippage, taxes, corporate actions, and execution assumptions can differ materially from live markets. You must not rely on NivCraft as the sole source for a real transaction, compliance obligation, valuation, or emergency decision.
+Market availability is based on the region you confirm in NivCraft and the markets and providers enabled for that region. You may be offered India Equity, US Equity, Coin Spot, Coin Futures, or other markets as they become available. A provider may be delayed, unavailable, or limited by its own terms, your connection, market hours, or your account access.
+
+Paper wallets are simulated balances, not bank accounts, stored value, securities accounts, or real currency holdings. A trade uses the applicable simulated wallet and its settlement currency. NivCraft does not automatically move funds between your paper wallets. Where a displayed amount is converted, the conversion is an estimate using the configured currency-data provider and may differ from an executable exchange rate.
+
+Paper wallets, pending orders, positions, full history, signal preferences, and market-data caches are local-first on your device. The backend may approve restricted lifecycle actions such as a wallet reset and receives limited closed-history records used to prepare the Community ladder. It does not continuously maintain your live simulated wallet balance, positions, pending orders, or market-data cache. Device loss, app-data clearing, or uninstalling may therefore remove data that has not been restored from an available device backup.
+
+Market data may come from connected brokers or other providers and may be delayed, incomplete, unavailable, adjusted, or incorrect. Simulated fills, charges, margin, liquidity, slippage, taxes, corporate actions, contract specifications, expiries, funding, and execution assumptions can differ materially from live markets. Coin Spot and Coin Futures are educational simulations only and are not cryptocurrency custody, exchange, derivative, or trading services. You must not rely on NivCraft as the sole source for a real transaction, compliance obligation, valuation, or emergency decision.
 
 We may change simulation assumptions to improve realism. Historical results may change when calculation rules or corrected data are applied.
 
@@ -39,17 +45,25 @@ Connecting a broker authorizes NivCraft to use the resulting session for the mar
 
 ## 7. Signals, background scanning, and notifications
 
-Signals are rule-based technical observations, not advice. Enabling Signal Notifications authorizes the app to perform supported background work and show notifications until you disable Signal Notifications, the configured daily signal allowance is reached, or Android prevents the work. Delivery, timing, and completeness are not guaranteed. Background restrictions, connectivity, market hours, provider limits, subscription limits, or device settings can interrupt scans. Signal processing is performed on the device; broker market data is requested from the selected broker/provider by the app.
+Signals are rule-based technical observations, not advice. Enabling Signal Notifications authorizes the app to perform supported background work and show notifications until you disable Signal Notifications, the daily signal allowance is reached, or Android prevents the work. Delivery, timing, and completeness are not guaranteed. Background restrictions, connectivity, market hours, provider limits, subscription limits, or device settings can interrupt scans. Signal processing is performed on the device; broker market data is requested from the selected broker/provider by the app.
 
 ## 8. Community content
 
 You retain ownership of content you submit. You grant NivCraft a worldwide, non-exclusive, royalty-free licence to host, store, reproduce, format, display, and distribute that content only as needed to operate and promote the NivCraft service. This licence ends when the content is deleted, except for lawful retention, backups, and content already shared by others.
 
-You must not post unlawful, deceptive, abusive, harassing, infringing, manipulative, promotional-spam, or personally sensitive content. Do not present community content as regulated advice or guaranteed returns. We may moderate, restrict, or remove content and accounts, but we do not endorse or pre-screen every submission. Community rankings can be influenced by simulated assumptions and must not be treated as evidence of investment skill.
+Community has one feed containing Trade Ideas, Shared Trades, and general Posts. A Trade Idea or Shared Trade requires an entry, stop loss, target, and hypothesis. When a simulated trade is shared, values already present in its source snapshot are immutable. Only source values that were missing at sharing may later be completed or edited, while the hypothesis remains editable. You must not falsify, misrepresent, or manipulate simulated results or provenance.
+
+Users may follow profiles, vote, comment, reply to a maximum displayed depth, and mention eligible participants. Notifications can be delayed, batched, unavailable, or disabled by device or service settings. The ranking is a recent monthly simulated-performance view prepared periodically from eligible closed-history records. Its size, availability, and calculation may change, and it is not a yearly record or proof of investment skill.
+
+Community content is short-lived: it is automatically removed using the administrator-configured retention period, initially seven days, and may also be removed earlier by its author where allowed, moderation, account deletion, or an administrator purge. Deleting a parent removes its child thread data. Do not rely on Community as permanent storage.
+
+You must not post unlawful, deceptive, abusive, harassing, infringing, manipulative, promotional-spam, or personally sensitive content. Do not present Community content as regulated advice or guaranteed returns. We may moderate, restrict, or remove content and accounts, but we do not endorse, verify, or pre-screen every submission.
 
 ## 9. Plans, checkout, and renewals
 
-Some features may require a paid entitlement. Current plan features, price, duration, taxes, renewal terms, and payment provider are shown before checkout. Paid access begins only after successful verification. Unless the checkout screen expressly states automatic renewal and obtains the required authorization, a plan does not automatically renew.
+Some features may require a paid entitlement. Current plan features, price, duration, taxes, renewal terms, and payment provider are shown before checkout. Paid access begins only after successful server verification and can fail closed while entitlement confirmation is unavailable or expired. A cached entitlement is account-bound and time-limited and must not be altered or bypassed. Unless the checkout screen expressly states automatic renewal and obtains the required authorization, a plan does not automatically renew.
+
+Signal detection allowances, where configured for a tier, are daily limits on distinct on-device signal events. Reaching an allowance stops further scanning and disables Signal Notifications until the allowance resets or the entitlement changes.
 
 Payments are processed by the displayed third-party provider. Refunds, cancellations, and billing corrections are handled according to the checkout terms, applicable law, and provider rules. Deleting the app does not itself cancel an externally authorized recurring payment; use the cancellation method shown for the plan or contact us. Deleting your NivCraft account disables renewal in NivCraft.
 
@@ -103,11 +117,10 @@ If part of these Terms is unenforceable, it will be limited to the minimum exten
 
 ## 19. Changes to these Terms
 
-We may update these Terms for product, provider, security, legal, or operational changes. The current version and effective date appear above. Material changes may require fresh in-app acceptance. Continued use after any required acceptance means you agree to the updated Terms.
+We may update these Terms for product, provider, security, legal, or operational changes. The current version and effective date appear above. Material changes may require fresh in-app acceptance. Continued use after any required acceptance means you agree to the updated Terms. The centrally hosted public version linked from the app is controlling; copies bundled with source code are non-controlling publication mirrors.
 
 ## 20. Contact
 
 **NivCraft**  
 Email: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
 Country of operation: India
-
