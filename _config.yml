@@ -3,3 +3,5 @@ description: Privacy, terms, and account deletion information for NivCraft.
 theme: jekyll-theme-cayman
 markdown: kramdown
 
+github:
+  is_project_page: false
