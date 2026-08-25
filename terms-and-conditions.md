@@ -1,7 +1,7 @@
 # Terms & Conditions for NivCraft
 
-**Terms version:** 2026-07-26
-**Effective date:** 26 July 2026
+**Terms version:** 2026-08-24
+**Effective date:** 24 August 2026
 
 These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **support.nivcraft@gmail.com**.
 
@@ -55,7 +55,7 @@ Community has one feed containing Trade Ideas, Shared Trades, and general Posts.
 
 Users may follow profiles, vote, comment, reply to a maximum displayed depth, and mention eligible participants. Notifications can be delayed, batched, unavailable, or disabled by device or service settings. The ranking is a recent monthly simulated-performance view prepared periodically from eligible closed-history records. Its size, availability, and calculation may change, and it is not a yearly record or proof of investment skill.
 
-Community content is short-lived: it is automatically removed using the administrator-configured retention period, initially seven days, and may also be removed earlier by its author where allowed, moderation, account deletion, or an administrator purge. Deleting a parent removes its child thread data. Do not rely on Community as permanent storage.
+Community content is short-lived: it is automatically removed using the administrator-configured retention period, currently 35 days, and may also be removed earlier by its author where allowed, moderation, account deletion, or an administrator purge. Deleting a parent removes its child thread data. Do not rely on Community as permanent storage.
 
 You must not post unlawful, deceptive, abusive, harassing, infringing, manipulative, promotional-spam, or personally sensitive content. Do not present Community content as regulated advice or guaranteed returns. We may moderate, restrict, or remove content and accounts, but we do not endorse, verify, or pre-screen every submission.
 

@@ -1,7 +1,7 @@
 # Privacy Policy for NivCraft
 
 **Effective date:** 26 July 2026
-**Last updated:** 8 August 2026
+**Last updated:** 24 August 2026
 
 NivCraft ("NivCraft", "we", "us", or "our") provides a paper-trading, market-learning, watchlist, signal-scanning, analytics, and community application. This Privacy Policy explains how the NivCraft mobile application and its related services collect, use, disclose, retain, and protect information.
 
@@ -15,16 +15,16 @@ This Policy applies to NivCraft's Android application, backend APIs, legal pages
 
 Depending on the features you use and the features currently enabled, we may process:
 
-- **Account and profile information:** Firebase user identifier, name, email address, phone number (if phone login is enabled), profile photo, role, login timestamps, and a one-way identity hash used for account restoration, entitlement integrity, referral-abuse prevention, and duplicate-reward prevention.
+- **Account and profile information:** Firebase user identifier, name, email address, phone number (if phone login is enabled), profile photo, role, login timestamps, and a one-way account-identity hash derived from the sign-in email address or phone number. We use this hash for account restoration, entitlement integrity, referral-abuse prevention, and duplicate-reward prevention. We do not collect biometric identifiers or device fingerprints.
 - **Authentication information:** sign-in tokens used to authenticate requests. Google/Firebase handles your sign-in credentials; NivCraft does not receive your Google password.
 - **Broker connection information:** selected broker, connection state, broker-issued access tokens and related identifiers needed to retrieve market data. Broker credentials are entered with the broker, not NivCraft. The app stores broker session tokens in device secure storage. Market-data requests and client-side signal candle processing are performed by the app with the selected broker/provider; NivCraft does not receive your candle stream for signal analysis and does not use broker connections to place real-money orders.
 - **Trading and learning information:** confirmed market region, enabled market access, paper-wallet currencies and balances, paper orders, positions, trade history, watchlists, reset history, trade plans, notes, tags, performance measures, and behavior insights. Paper wallets and all related balances are simulated only. Paper wallets, pending orders, positions, watchlists, and complete history are local-first device data that is not synchronized or restorable across devices. Closed-history records are separately synchronized to the backend to calculate the Community ladder and to restore your trade history if you reinstall NivCraft or sign in on a new device; live wallet balances, positions, pending orders, watchlists, and market-data caches are not continuously copied to NivCraft's backend and are not restored this way.
 - **Market-data and currency-conversion information:** the provider, instrument identifiers, and currencies needed to request quotes, instruments, option-chain, Coin Spot, Coin Futures, or currency-conversion data. The app requests market and conversion data directly from the selected provider where supported; NivCraft does not receive the device's candle stream for client-side signal processing.
 - **Signals and notifications:** signal preferences, configured scans, signal results, daily signal usage, device notification permission, push token, and notification settings. Signal preferences and results stay on the device and are not routinely synchronized to NivCraft's backend. If you enable Signal Notifications, the app may perform scheduled background work and client-side signal processing on your device. A Firebase Cloud Messaging token is stored on the backend when needed for Community, mention, or human-support notifications.
+- **Analytics and reliability information:** Firebase Analytics records app-interaction and screen events, and Firebase Crashlytics records crash and reliability diagnostics. NivCraft limits its custom analytics and crash context to privacy-safe operational fields and does not intentionally include passwords, broker tokens, user-authored text, prices, symbols, or other sensitive payloads in that context.
 - **Community information:** profile information made visible in the community, follows, votes, trade ideas, shared simulated trades, general posts, comments, mentions, rankings, and related notifications. Content marked public is visible to other users. A shared-trade post contains an immutable snapshot of source trade values so later edits cannot rewrite values that existed when it was shared.
 - **Support information:** feedback, feature requests, issue reports, messages, screenshots or diagnostic details you choose to send, app version, platform, and screen context.
 - **Subscription and transaction information:** plan, entitlement, price, payment status, provider references, expiry and renewal state. When checkout is enabled, payment details are processed by the displayed payment provider (currently Razorpay); NivCraft does not receive your full card or bank credentials.
-- **Advertising information:** when advertising is enabled, Google Mobile Ads may process advertising identifiers, device information, approximate location inferred from network information, ad interactions, and diagnostics in accordance with Google's policies and your device choices.
 - **Technical information:** IP address, request timestamps, app platform/version, device metadata, and server logs needed for security, delivery, troubleshooting, and abuse prevention.
 
 NivCraft does not intentionally collect precise location, contacts, SMS content, health data, or files unrelated to a feature you deliberately use.
@@ -49,10 +49,9 @@ We do not sell your personal information. We do not use broker tokens to execute
 
 We disclose information only as needed for the purposes above, including to:
 
-- **Google Firebase and Google Sign-In** for authentication, account security, and push-notification delivery;
+- **Google Firebase and Google Sign-In** for authentication, account security, push-notification delivery, privacy-safe analytics, and crash/reliability reporting;
 - **broker APIs selected by you** to retrieve quotes, instruments, option-chain, or other broker-backed market data;
 - **Razorpay or another checkout provider displayed at purchase time** to create and verify payments when checkout is enabled;
-- **Google Mobile Ads** to provide ads when advertising is enabled;
 - **cloud, database, networking, monitoring, email, and support providers** acting for us under appropriate safeguards;
 - **other NivCraft users** when you publish community content or make profile/community activity visible; and
 - **authorities, advisers, or affected parties** when reasonably necessary to comply with law, protect rights and safety, investigate abuse, or complete a merger, financing, or transfer of the service subject to applicable safeguards.
@@ -74,12 +73,12 @@ We use reasonable administrative, technical, and organizational safeguards, incl
 We retain information only while needed for the purposes described above, including service delivery, security, dispute resolution, and legal or accounting duties.
 
 - Active-account data is generally retained while your account remains active.
-- Public Community posts, ideas, shared trades, comments, votes, mentions, and their backend read caches are automatically removed after the administrator-configured Community retention period, initially seven days. You may also delete your own content earlier. The retention period can change and content may disappear sooner following a lawful moderation or administrator purge.
+- Public Community posts, ideas, shared trades, comments, votes, mentions, and their backend read caches are automatically removed after the administrator-configured Community retention period, currently 35 days. You may also delete your own content earlier. The retention period can change and content may disappear sooner following a lawful moderation or administrator purge.
 - Complete paper-trading history on your device is not subject to the automatic Community cleanup. Closed-history records synchronized to the backend for Community-ladder calculation and cross-device history restoration remain only while needed for those purposes or until account deletion.
 - Watchlists, live paper-wallet balances, positions, and pending orders are not synchronized to NivCraft's backend. They are not restored if a device is lost, its app data is cleared, or NivCraft is reinstalled, unless covered by an available device backup outside NivCraft's control.
 - When you delete your NivCraft account, we delete or de-identify profile, watchlist, paper-trading, Community, support-chat, push-device, device-session, and similar user-specific service data. Authored Community parents and their child comments, votes, mentions, and pending notification jobs are removed together. Legal acceptance is cleared, so a returning account must accept the then-current Terms again.
-- We may retain only restricted records needed for a stated lawful purpose: a one-way identity fingerprint, membership and entitlement tier, premium expiry, payment and renewal ledger, referral/reward ledger, deletion record, and records needed for fraud prevention, disputes, tax, accounting, or other legal compliance. The retained identity fingerprint is not displayed to users and is used to prevent duplicate welcome offers, rewards, or entitlement abuse. Retained records are not used to recreate deleted Community, support, watchlist, wallet-balance, order, position, or practice-trading content.
-- Retained records are reviewed and removed or de-identified when their stated purpose and any mandatory legal retention period end.
+- We may retain only restricted records needed for a stated lawful purpose: a one-way account-identity hash (not a biometric or device fingerprint), membership and entitlement tier, premium expiry, payment and renewal ledger, referral/reward ledger, deletion record, and records needed for fraud prevention, disputes, tax, accounting, or other legal compliance. The retained account-identity hash is not displayed to users and is used to prevent duplicate welcome offers, rewards, or entitlement abuse. Retained records are not used to recreate deleted Community, support, watchlist, wallet-balance, order, position, or practice-trading content.
+- We retain those restricted records only while needed for the stated purpose or a legal obligation. If you need details about a particular retained category, contact us at **support.nivcraft@gmail.com**.
 - Backup copies may remain for a limited rotation period before being overwritten.
 
 You can delete your account in NivCraft through **Menu > Delete Account**. If you cannot access the app, follow [Account and Data Deletion](delete-account.md) to submit a web-accessible request. We may need to verify that you control the account.
