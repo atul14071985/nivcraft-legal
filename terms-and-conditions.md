@@ -1,7 +1,7 @@
 # Terms & Conditions for NivCraft
 
-**Terms version:** 2026-08-24
-**Effective date:** 24 August 2026
+**Terms version:** 2026-08-30
+**Effective date:** 30 August 2026
 
 These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **support.nivcraft@gmail.com**.
 
@@ -27,7 +27,7 @@ Market availability is based on the region you confirm in NivCraft and the marke
 
 Paper wallets are simulated balances, not bank accounts, stored value, securities accounts, or real currency holdings. A trade uses the applicable simulated wallet and its settlement currency. NivCraft does not automatically move funds between your paper wallets. Where a displayed amount is converted, the conversion is an estimate using the configured currency-data provider and may differ from an executable exchange rate.
 
-Paper wallets, pending orders, positions, watchlists, full history, signal preferences, and market-data caches are local-first on your device. Watchlists, live wallet balances, positions, and pending orders are not synchronized to the backend and are not restorable across devices. The backend may approve restricted lifecycle actions such as a wallet reset and separately receives closed-history records used to prepare the Community ladder and to restore your trade history if you reinstall NivCraft or sign in on a new device. Device loss, app-data clearing, or uninstalling will therefore remove your local-only watchlists, wallet balances, positions, pending orders, and market-data cache, unless covered by an available device backup outside NivCraft's control; your closed trade history can still be recovered from the backend as described above.
+Live paper wallets, pending orders, positions, signal preferences, and market-data caches are local-first on your device and are not synchronized to the backend or restorable across devices. Your closed trade history and your watchlists are synchronized to the backend and are restored when you reinstall NivCraft or sign in on a new device; the backend also uses closed-history records to prepare the Community ladder and may approve restricted lifecycle actions such as a wallet reset. Device loss, app-data clearing, or uninstalling will remove your local-only wallet balances, positions, pending orders, and market-data cache unless covered by an available device backup outside NivCraft's control; your closed trade history and watchlists can still be recovered from the backend as described above.
 
 Market data may come from connected brokers or other providers and may be delayed, incomplete, unavailable, adjusted, or incorrect. Simulated fills, charges, margin, liquidity, slippage, taxes, corporate actions, contract specifications, expiries, funding, and execution assumptions can differ materially from live markets. Coin Spot and Coin Futures are educational simulations only and are not cryptocurrency custody, exchange, derivative, or trading services. You must not rely on NivCraft as the sole source for a real transaction, compliance obligation, valuation, or emergency decision.
 
@@ -59,67 +59,85 @@ Community content is short-lived: it is automatically removed using the administ
 
 You must not post unlawful, deceptive, abusive, harassing, infringing, manipulative, promotional-spam, or personally sensitive content. Do not present Community content as regulated advice or guaranteed returns. We may moderate, restrict, or remove content and accounts, but we do not endorse, verify, or pre-screen every submission.
 
-## 9. Plans, checkout, and renewals
+## 9. Subscriptions, Google Play billing, and renewals
 
-Some features may require a paid entitlement. Current plan features, price, duration, taxes, renewal terms, and payment provider are shown before checkout. Paid access begins only after successful server verification and can fail closed while entitlement confirmation is unavailable or expired. A cached entitlement is account-bound and time-limited and must not be altered or bypassed. Unless the checkout screen expressly states automatic renewal and obtains the required authorization, a plan does not automatically renew.
+Some features and higher limits require a paid entitlement. Current plan features, price, currency, duration, taxes, and renewal terms are shown before you buy.
+
+**Billing is handled by Google Play.** When you buy a plan, Google Play (and Google Payments) charges your Google Play payment method and manages the subscription. NivCraft does not receive or store your card, UPI, or bank details. Google Play's terms and Google's Payments and Privacy policies apply to the transaction.
+
+Paid access begins only after successful server verification of your Google Play purchase and can fail closed while entitlement confirmation is unavailable or expired. A cached entitlement is account-bound and time-limited and must not be altered or bypassed.
+
+Unless a plan is expressly offered as one-time, subscriptions are **auto-renewing**: Google Play automatically renews the subscription and charges the renewal price at the start of each new period until you cancel. NivCraft keeps your entitlement in step with the state Google Play reports, including renewal, cancellation, grace period (a short window while Google retries a failed payment), account hold, pause, and expiry.
+
+**Managing and cancelling:** you manage or cancel the subscription in the Google Play app, or at play.google.com/store/account/subscriptions, or via the "Manage subscription" link on the NivCraft Subscription page, which opens Google Play. If you cancel, you keep paid access until the end of the period you have already paid for, and the plan then does not renew. NivCraft cannot cancel, refund, or change a Google Play subscription on your behalf.
+
+**Refunds** are handled by Google Play under its refund policy and applicable law; contact Google Play for a refund request.
+
+**Deleting the NivCraft app or your NivCraft account does not cancel a Google Play subscription** and does not stop Google Play from charging renewals. Cancel in Google Play to stop future charges. Deleting your NivCraft account disables renewal handling inside NivCraft only.
 
 Signal detection allowances, where configured for a tier, are daily limits on distinct on-device signal events. Reaching an allowance stops further scanning and disables Signal Notifications until the allowance resets or the entitlement changes.
 
-Payments are processed by the displayed third-party provider. Refunds, cancellations, and billing corrections are handled according to the checkout terms, applicable law, and provider rules. Deleting the app does not itself cancel an externally authorized recurring payment; use the cancellation method shown for the plan or contact us. Deleting your NivCraft account disables renewal in NivCraft.
+## 10. Advertising
 
-## 10. Acceptable use
+Where advertising is enabled for your tier, NivCraft shows ads supplied by **Google AdMob**. The [Privacy Policy](privacy-policy.md) describes the data the ad network processes and your choices, including resetting your Advertising ID and, in the EEA, the UK, and Switzerland, a consent prompt for personalized ads. A paid ad-free tier removes ads; your current tier's advertising behavior is shown on the Subscription page.
+
+Some features may offer an optional **rewarded ad**: if you choose to watch it in full, NivCraft grants a stated in-app benefit (for example an additional practice-capital reset). Rewards are simulated in-app benefits only, have no cash value, are not transferable, and may be limited, changed, or withdrawn. Reward availability depends on ad fill, your tier, and configured limits.
+
+You must not click or interact with your own ads other than as a genuine user, generate invalid or automated ad traffic, encourage or incentivize others to click ads, use tools that block, spoof, or alter ad delivery or measurement, or otherwise interfere with the advertising or its integrity systems. Ads are provided by third parties; their appearance is not an endorsement by NivCraft, and NivCraft is not responsible for third-party advertised products, offers, or destinations.
+
+## 11. Acceptable use
 
 You must not:
 
 - violate law, market-data licences, provider terms, or another person's rights;
 - reverse engineer, scrape, bulk-download, resell, redistribute, or create a competing dataset from NivCraft or licensed market data except where law cannot prohibit it;
-- probe security, introduce malware, automate abusive traffic, evade limits, manipulate rankings or referrals, or interfere with the service;
+- probe security, introduce malware, automate abusive traffic, evade limits, manipulate rankings, referrals, rewards, or ad metrics, or interfere with the service;
 - use NivCraft to conduct real-money order routing, unlawful financial promotion, fraud, or market manipulation; or
 - remove ownership notices or misuse NivCraft names, branding, or software.
 
-## 11. Intellectual property
+## 12. Intellectual property
 
 NivCraft and its software, design, branding, documentation, calculations, and non-user content are owned by or licensed to us and protected by applicable law. Subject to these Terms, we grant you a limited, personal, revocable, non-transferable, non-exclusive licence to use the app for its intended purpose. No other rights are granted.
 
 Third-party names, market data, and trademarks belong to their respective owners. Their appearance does not imply endorsement.
 
-## 12. Availability and changes
+## 13. Availability and changes
 
 Features may be enabled, disabled, limited by platform or plan, placed in maintenance, changed, or discontinued. We do not promise uninterrupted, error-free, or permanently available service. We may issue required updates for security, compatibility, or compliance.
 
-## 13. Suspension and termination
+## 14. Suspension and termination
 
 You may stop using NivCraft or delete your account at any time. We may restrict or terminate access where reasonably necessary for a Terms violation, security risk, abuse, legal request, non-payment, provider restriction, or service discontinuation. Where appropriate, we will provide notice and a reasonable opportunity to address the issue.
 
-Account deletion and any lawful retention are described in the [Privacy Policy](privacy-policy.md) and [Account and Data Deletion](delete-account.md) page. Deletion clears your recorded Terms acceptance. If you return, the then-current Terms must be accepted again.
+Account deletion runs the same centralized process whether you start it in the app or ask NivCraft support to run it on your verified request, and any lawful retention is described in the [Privacy Policy](privacy-policy.md) and [Account and Data Deletion](delete-account.md) page. Deletion clears your recorded Terms acceptance. If you return, the then-current Terms must be accepted again. Deletion does not cancel a Google Play subscription.
 
-## 14. Disclaimers
+## 15. Disclaimers
 
 To the maximum extent permitted by law, NivCraft is provided "as is" and "as available" without warranties of accuracy, availability, fitness for a particular purpose, non-infringement, profitability, or suitability for live trading. Nothing in these Terms excludes a warranty or consumer right that cannot lawfully be excluded.
 
-## 15. Limitation of liability
+## 16. Limitation of liability
 
-To the maximum extent permitted by law, NivCraft and its operator, contributors, and service providers will not be liable for indirect, incidental, special, consequential, exemplary, or punitive loss; loss of profits, opportunity, data, goodwill, or anticipated savings; trading or investment loss; or loss caused by market-data errors, simulated assumptions, community content, provider outages, or unauthorized use outside our reasonable control.
+To the maximum extent permitted by law, NivCraft and its operator, contributors, and service providers will not be liable for indirect, incidental, special, consequential, exemplary, or punitive loss; loss of profits, opportunity, data, goodwill, or anticipated savings; trading or investment loss; or loss caused by market-data errors, simulated assumptions, community content, provider outages, advertising content, or unauthorized use outside our reasonable control.
 
 Where liability cannot be excluded, our aggregate liability arising from NivCraft will be limited to the greater of the amount you paid directly for NivCraft during the 12 months before the event or INR 1,000, except where applicable law requires a different remedy. This section does not limit liability for fraud, wilful misconduct, or any liability that cannot legally be limited.
 
-## 16. Indemnity
+## 17. Indemnity
 
 To the extent permitted by law, you will reimburse reasonable losses and costs arising from your unlawful use, your content, or your material breach of these Terms, except to the extent caused by NivCraft. We will give reasonable notice and allow your participation in the defence of a third-party claim.
 
-## 17. Governing law and disputes
+## 18. Governing law and disputes
 
 These Terms are governed by the laws of India, without regard to conflict-of-law rules. Courts having jurisdiction at NivCraft's operator's principal place of business in India will have jurisdiction, subject to mandatory consumer rights and any forum that applicable law requires. Before filing a claim, please contact **support.nivcraft@gmail.com** and allow 30 days for a good-faith attempt to resolve it.
 
-## 18. General
+## 19. General
 
-If part of these Terms is unenforceable, it will be limited to the minimum extent necessary and the remainder will continue. Our failure to enforce a provision is not a waiver. You may not transfer this agreement without our consent; we may transfer it as part of a reorganization or service transfer subject to applicable law. These Terms, the Privacy Policy, and checkout-specific terms are the entire agreement about NivCraft.
+If part of these Terms is unenforceable, it will be limited to the minimum extent necessary and the remainder will continue. Our failure to enforce a provision is not a waiver. You may not transfer this agreement without our consent; we may transfer it as part of a reorganization or service transfer subject to applicable law. These Terms, the Privacy Policy, and any Google Play purchase terms are the entire agreement about NivCraft.
 
-## 19. Changes to these Terms
+## 20. Changes to these Terms
 
 We may update these Terms for product, provider, security, legal, or operational changes. The current version and effective date appear above. Material changes may require fresh in-app acceptance. Continued use after any required acceptance means you agree to the updated Terms. The centrally hosted public version linked from the app is controlling; copies bundled with source code are non-controlling publication mirrors.
 
-## 20. Contact
+## 21. Contact
 
 **NivCraft**  
 Email: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
