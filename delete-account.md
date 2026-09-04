@@ -13,7 +13,7 @@ The app signs out on the device after the deletion request completes.
 
 ## Request deletion without the app
 
-Email **support.nivcraft@gmail.com** from the email address associated with your NivCraft account. Use the subject **NivCraft account deletion request** and state that you want your NivCraft account and associated data deleted.
+Email **support@nivcraft.in** from the email address associated with your NivCraft account. Use the subject **NivCraft account deletion request** and state that you want your NivCraft account and associated data deleted.
 
 We may ask for limited information to verify that you control the account. Do not send a password, one-time password, broker token, card number, or bank credential. When NivCraft support performs the deletion on your behalf, we record which administrator ran it, when, and the stated reason.
 
@@ -33,4 +33,4 @@ NivCraft may retain only restricted records needed for a stated lawful purpose: 
 
 We will normally complete a verified request within 30 days, or explain if applicable law permits or requires additional time.
 
-Contact: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
+Contact: [support@nivcraft.in](mailto:support@nivcraft.in)

@@ -3,7 +3,7 @@
 **Terms version:** 2026-08-30
 **Effective date:** 30 August 2026
 
-These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **support.nivcraft@gmail.com**.
+These Terms & Conditions ("Terms") form an agreement between you and NivCraft ("NivCraft", "we", "us", or "our") concerning the NivCraft mobile application and related services. NivCraft is operated by the developer identified for NivCraft in its Google Play listing. Contact: **support@nivcraft.in**.
 
 ## 1. Acceptance
 
@@ -127,7 +127,7 @@ To the extent permitted by law, you will reimburse reasonable losses and costs a
 
 ## 18. Governing law and disputes
 
-These Terms are governed by the laws of India, without regard to conflict-of-law rules. Courts having jurisdiction at NivCraft's operator's principal place of business in India will have jurisdiction, subject to mandatory consumer rights and any forum that applicable law requires. Before filing a claim, please contact **support.nivcraft@gmail.com** and allow 30 days for a good-faith attempt to resolve it.
+These Terms are governed by the laws of India, without regard to conflict-of-law rules. Courts having jurisdiction at NivCraft's operator's principal place of business in India will have jurisdiction, subject to mandatory consumer rights and any forum that applicable law requires. Before filing a claim, please contact **support@nivcraft.in** and allow 30 days for a good-faith attempt to resolve it.
 
 ## 19. General
 
@@ -140,5 +140,5 @@ We may update these Terms for product, provider, security, legal, or operational
 ## 21. Contact
 
 **NivCraft**  
-Email: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
+Email: [support@nivcraft.in](mailto:support@nivcraft.in)
 Country of operation: India

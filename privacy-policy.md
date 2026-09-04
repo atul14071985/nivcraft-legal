@@ -5,7 +5,7 @@
 
 NivCraft ("NivCraft", "we", "us", or "our") provides a paper-trading, market-learning, watchlist, signal-scanning, analytics, and community application. This Privacy Policy explains how the NivCraft mobile application and its related services collect, use, disclose, retain, and protect information.
 
-NivCraft is operated by the developer identified for NivCraft in its Google Play listing. For privacy questions or requests, contact **support.nivcraft@gmail.com**.
+NivCraft is operated by the developer identified for NivCraft in its Google Play listing. For privacy questions or requests, contact **support@nivcraft.in**.
 
 ## 1. Scope
 
@@ -92,14 +92,14 @@ We retain information only while needed for the purposes described above, includ
 - **Deleting your NivCraft account does not cancel a Google Play subscription.** Google Play manages billing and renewals. To stop future charges you must cancel the subscription in the Google Play app or at play.google.com/store/account/subscriptions. Account deletion disables renewal handling inside NivCraft only.
 - On deletion we remove the Google Play purchase record and its lifecycle-event log, and clear the Google Play purchase token from the payment ledger. The de-identified payment ledger (plan, price, currency, status, dates) and the entitlement grant-and-revocation ledger are retained, so no re-usable Google Play purchase credential remains.
 - We may otherwise retain only restricted records needed for a stated lawful purpose: the one-way account-identity hash (not a biometric or device fingerprint), account creation and deletion timestamps, membership and entitlement tier, premium expiry, the entitlement grant-and-revocation ledger, the payment and renewal ledger, the referral/reward ledger, the deletion record, and records needed for fraud prevention, disputes, tax, accounting, or other legal compliance. The retained account-identity hash is not displayed to users and is used to prevent duplicate welcome offers, rewards, or entitlement abuse. Retained records are not used to recreate deleted Community, support, watchlist, wallet-balance, order, position, or practice-trading content.
-- We retain those restricted records only while needed for the stated purpose or a legal obligation. If you need details about a particular retained category, contact us at **support.nivcraft@gmail.com**.
+- We retain those restricted records only while needed for the stated purpose or a legal obligation. If you need details about a particular retained category, contact us at **support@nivcraft.in**.
 - Backup copies may remain for a limited rotation period before being overwritten.
 
 You can delete your account in NivCraft through **Menu > Delete Account**. If you cannot access the app, follow [Account and Data Deletion](delete-account.md) to submit a web-accessible request. We may need to verify that you control the account.
 
 ## 9. Your rights
 
-Subject to applicable law, you may request access, correction, deletion, restriction, objection, portability, withdrawal of consent, or information about our processing. Contact **support.nivcraft@gmail.com**. We may verify your identity and may retain information where law permits or requires it.
+Subject to applicable law, you may request access, correction, deletion, restriction, objection, portability, withdrawal of consent, or information about our processing. Contact **support@nivcraft.in**. We may verify your identity and may retain information where law permits or requires it.
 
 You may also complain to the Data Protection Board of India or another data-protection authority available in your jurisdiction once the applicable complaint channel is available.
 
@@ -118,5 +118,5 @@ We may update this Policy as NivCraft, our providers, or legal requirements chan
 ## 13. Contact
 
 **NivCraft Privacy Contact**  
-Email: [support.nivcraft@gmail.com](mailto:support.nivcraft@gmail.com)
+Email: [support@nivcraft.in](mailto:support@nivcraft.in)
 Country of operation: India
